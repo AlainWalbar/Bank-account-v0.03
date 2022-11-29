@@ -127,7 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Account.cpp" />
+    <ClCompile Include="AccountHandler.cpp" />
+    <ClCompile Include="HighCreditAccount.cpp" />
+    <ClCompile Include="SavingAccount.cpp" />
+    <ClCompile Include="BankMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Account.h" />
+    <ClInclude Include="AccountHandler.h" />
+    <ClInclude Include="BankCommon.h" />
+    <ClInclude Include="HighCreditAccount.h" />
+    <ClInclude Include="SavingAccount.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
